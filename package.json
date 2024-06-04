@@ -1,0 +1,11 @@
+{
+  "name": "complete_codewme_study_plan",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.0.0"
+  }
+}

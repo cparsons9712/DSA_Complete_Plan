@@ -8,10 +8,12 @@ Write a function isString(input) that takes a single argument and returns true i
 def isString(input):
     return isinstance(input, str)
 
-# Example Usage:
-# isString("Hello World") -> True
-# isString(123) -> False
 
+# Example Usage:
+```
+isString("Hello World") -> True
+isString(123) -> False
+```
 
 
 Problem 2: Count Characters in a String
