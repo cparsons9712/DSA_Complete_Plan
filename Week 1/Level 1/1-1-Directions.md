@@ -1,7 +1,8 @@
-# JIRA Ticket 1-1
+# JIRA Ticket 11a
+
 **Issue Type:** Bug
 
-**Summary:** Implement Data Validation for Form Inputs
+**Summary:** Implement Data Type Validation for Form Inputs
 
 **Description:**
 
@@ -21,7 +22,10 @@ Observe the errors in the backend logs.
 - The function should return false if the input data is not a string.
 - The function should handle edge cases, such as null, undefined, and numbers.
 
-**Attachments:** N/A
+**Testing Command:**
+```
+npm run test:11a
+```
 
 **Example Function Signature:**
 
@@ -40,6 +44,7 @@ console.log(isString(null)); // false
 console.log(isString(undefined)); // false
 console.log(isString("12345")); // true
 ```
+
 **Priority:** High
 
 **Assignee:** Joe Developer

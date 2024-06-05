@@ -6,13 +6,20 @@ done at your own pace, if it takes a few days to understand a concept
 that was planned to take one day its okay!
 */
 
-/*******************************************************************
+/*********************
 
+JIRA Ticket 11a
 
-
-*********************************************************************/
-
-
+**********************/
 export const isString = (input) => {
-    // your code here
-  };
+  // your code here
+};
+
+/**********************
+
+JIRA Ticket 1-2
+
+**********************/
+export const isValidLength = (input, maxLength) => {
+  return input.length <= maxLength;
+};
