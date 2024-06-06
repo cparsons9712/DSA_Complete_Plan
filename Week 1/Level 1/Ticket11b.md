@@ -32,6 +32,8 @@ console.log(isValidLength("This is a very long input string that exceeds the lim
 console.log(isValidLength("", 5)); // true
 console.log(isValidLength(null, 10)); // false
 console.log(isValidLength("12345", 5)); // true
+console.log(isValidLength(undefined, 10)); // false
+console.log(isValidLength(12345, 10)); // false
 ```
 
 **Priority:** Medium
@@ -47,6 +49,12 @@ console.log(isValidLength("12345", 5)); // true
 **Checklist:** <br>
 [ ] Implement the function isValidLength.<br>
 [ ] Ensure the function passes all example usage tests..<br>
-[ ] Test the function with additional edge cases.<br>
+[ ] Test the function with additional edge cases (null, undefined, non-string inputs, negative maxLength, etc.).<br>
 [ ] Update any relevant documentation.<br>
 [ ] Notify the QA team for re-testing.<br>
+
+**Commands to Run Test:** <br>
+To ensure the validation function works correctly, run the following command in your development environment: <br>
+```
+npm run test:11b
+```

@@ -61,3 +61,9 @@ console.log(isString("12345")); // true
 [ ] Test the function with additional edge cases.<br>
 [ ] Update any relevant documentation.<br>
 [ ] Notify the QA team for re-testing.<br>
+
+**Commands to Run Test:** <br>
+To ensure the validation function works correctly, run the following command in your development environment: <br>
+```
+npm run test:11a
+```
