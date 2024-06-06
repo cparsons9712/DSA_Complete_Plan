@@ -21,5 +21,16 @@ JIRA Ticket 1-2
 
 **********************/
 export const isValidLength = (input, maxLength) => {
+  // Check if the input is null or undefined
+  if (input === null || input === undefined) {
+    return false;
+  }
+
+  // Ensure the input is a string
+  if (typeof input !== "string") {
+    return false;
+  }
+
+  // Check if the input length is within the specified limit
   return input.length <= maxLength;
 };

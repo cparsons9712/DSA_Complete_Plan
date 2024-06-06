@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "test": "playwright test",
-    "test:11a": "npx playwright test tests/validateInput.test.js --grep '11a'"
+    "test:11a": "npx playwright test tests/validateInput.test.js --grep '11a'",
+    "test:11b": "npx playwright test tests/validateInput.test.js --grep '11b'"
   },
   "dependencies": {
     "@playwright/test": "^1.0.0"
