@@ -22,10 +22,6 @@ Observe the errors in the backend logs.
 - The function should return false if the input data is not a string.
 - The function should handle edge cases, such as null, undefined, and numbers.
 
-**Testing Command:**
-```
-npm run test:11a
-```
 
 **Example Function Signature:**
 
