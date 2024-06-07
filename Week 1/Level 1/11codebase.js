@@ -17,20 +17,18 @@ export const isString = (input) => {
 
 /**********************
 
-JIRA Ticket 1-2
+JIRA Ticket 11b
 
 **********************/
 export const isValidLength = (input, maxLength) => {
-  // Check if the input is null or undefined
-  if (input === null || input === undefined) {
-    return false;
-  }
+  // your code here
+};
 
-  // Ensure the input is a string
-  if (typeof input !== "string") {
-    return false;
-  }
+/**********************
 
-  // Check if the input length is within the specified limit
-  return input.length <= maxLength;
+JIRA Ticket 11c
+
+**********************/
+export const getInitials = (fullName) => {
+  //your code here
 };
